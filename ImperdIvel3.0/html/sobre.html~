@@ -1,0 +1,79 @@
+<html>
+<head>
+<title>Imperd&iacute;vel</title>
+
+<link type="text/ccs" rel="stylesheet" href="../css/blog.css" media="screen"/>
+
+<script type="text/javascript" src="../javascript/blog.js">
+</script>
+
+</head>
+<body>
+
+<div id="tudo">
+
+<div id="cabecalho"> 
+	<a href="../html/index.html" ><img class="aumentar" class="logo" src="../imagens/imperdivel.svg" height="90px" alt="logoptipo Vini"></a>
+	
+<!-- <h1 class="blog">Blog do Vini</h1> -->
+
+</div> <!-- fim div cabecalho -->
+
+<div id="intermediario">
+<div id="header">
+    <ul>
+      <li><a href="../html/index.html">In&iacute;cio</a></li>
+	  <li><a href="../html/ingressos.html" target="_blank">Ingressos</a></li>
+      <li id="current"><a href="#">Sobre</a></li>
+    </ul>
+  </div>
+
+</div> <!-- fim ID intermediario -->
+
+<div id="principal">
+
+<div id="primeiro">
+<p> 
+<!-- <div id="imagem1"> -->
+	<img class="aumentar" src="../imagens/Eu.JPG" width="220" /></a> <!-- deve ter 250x156 px -->
+	<h2>Marcos Vinicius Katunaric Corr&ecirc;a</h2></a> <!-- Titulo 1 -->
+<p>
+E-mail: vinikatunaric@gmail.com<br>
+<br>
+Fone: (51) 9884-7005<br>
+<br>
+Endere&ccedil;o: Rua Dep. Fernando Ferrari, 344 - Albatroz<br>
+Os&oacute;rio - RS - CEP: 95520-000<br>
+</p> 
+</div> <!-- fim ID primeiro -->
+
+<div id="ingressos">
+	<a href="../html/ingressos.html" target="_blank"><img class="aumentar" id="buttoningr" src="../imagens/ingressos.svg" width="100%" onmouseover="alteraIngressosOver();" onmouseout="alteraIngressosOut();" onmousedown="alteraIngressosClick();" /></a>
+</div>
+
+<div id="propag01">
+ 	<a href="https://www.foofighters.com" target="_blank" ><img src="../imagens/foo.svg" width="90" alt="Foo Fighters"></a>
+</div> <!-- fim div propag01 -->
+
+<div id="propag02">
+	<a href="http://www.qotsa.com/" target="_blank" ><img src="../imagens/qotsa.svg" alt="Queens Of the Stone Age"></a>
+</div> <!-- fim div propag02 -->
+
+<div id="propag03">
+	<a href="http://pearljam.com/" target="_blank" ><img src="../imagens/Pearl-Jam.jpg" width="90" alt="Pearl Jam"></a>
+</div> <!-- fim div propag03 -->
+
+<div id="propag04">
+	<a href="http://www.acdc.com/us/home" target="_blank" ><img src="../imagens/acdc.svg" width="90" alt="AC/DC"></a>
+</div> <!-- fim div propag04 -->
+
+</div> <!-- fim div principal -->
+
+<div id="rodape">
+	<a href="mailto: vinikatunaric@gmail.com" ><img src="../imagens/Assinatura.svg"></a>
+	<p>Copywrong by <a href="mailto: vinikatunaric@gmail.com">vinikatunaric@gmail.com </a></p>
+</div> <!-- fim div rodape -->
+
+</div> <!-- fim div tudo -->
+</body>
+</html>

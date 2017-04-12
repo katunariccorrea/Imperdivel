@@ -1,0 +1,128 @@
+<html>
+<head>
+<title>Imperd&iacute;vel</title>
+
+<link type="text/ccs" rel="stylesheet" href="../css/blog.css" media="screen"/>
+
+<script type="text/javascript" src="../javascript/blog.js">
+</script>
+
+</head>
+<body>
+
+<div id="tudo">
+
+<div id="cabecalho"> 
+	<a href="../html/index.html" ><img class="aumentar" class="logo" src="../imagens/imperdivel.svg" height="90px" alt="logoptipo Vini"></a>
+	
+<!-- <h1 class="blog">Blog do Vini</h1> -->
+
+</div> <!-- fim div cabecalho -->
+
+<div id="intermediario">
+<div id="header">
+    <ul>
+      <li id="current"><a href="../html/index.html">In&iacute;cio</a></li>
+	  <li><a href="../html/ingressos.html" target="_blank">Ingressos</a></li>
+      <li><a href="../html/sobre.html" target="_blank">Sobre</a></li>
+    </ul>
+  </div>
+
+</div> <!-- fim ID intermediario -->
+
+<div id="principal">
+
+<div id="alpha">
+<iframe width="40%" height="30%" src="http://www.youtube.com/embed/Clc21-vz-OY" frameborder="0" allowfullscreen></iframe>
+<p> <h2>DIA MUNDIAL DO ROCK</h2><BR>Em 13 de julho de 1985, Bob Geldof organizou o Live Aid, um show simult&acirc;neo em Londres, na Inglaterra, e na Filad&eacute;lfia, nos Estados Unidos. 
+O objetivo principal era o fim da fome na Eti&oacute;pia. O evento chamou a aten&ccedil;&atilde;o por contar com a presen&ccedil;a de muitos artistas famosos 
+na &eacute;poca. Entre os participantes, estavam The Who, Status Quo, Led Zeppelin, Dire Straits, Madonna, Queen, Joan Baez, David Bowie, BB King, Mick Jagger, 
+Sting, Scorpions, U2, Paul McCartney, Phil Collins (que tocou nos dois lugares), Eric Clapton e Black Sabbath.
+Os shows foram transmitidos ao vivo pela BBC para diversos pa&iacute;ses e abriram os olhos do mundo para a mis&eacute;ria no continente africano.
+Em 2005, 20 anos depois do primeiro evento, Bob Geldof organizou o Live 8, uma nova edi&ccedil;&atilde;o com estrutura maior e shows em mais pa&iacute;ses. 
+Dessa vez o objetivo foi pressionar os l&iacute;deres do G8 para perdoar a d&iacute;vida externa dos pa&iacute;ses mais pobres e erradicar a mis&eacute;ria do mundo.
+No Live 8 o Grupo de Rock Brit&acirc;nico Pink Floyd se reuniu em sua forma&ccedil;&atilde;o cl&aacute;ssica pela primeira vez depois de 20 anos de 
+separa&ccedil;&atilde;o</p>
+
+</div>
+
+
+
+<div id="primeiro">
+<p> 
+<!-- <div id="imagem1"> -->
+	<a href="../html/title1.html" target="_blank" ><img class="aumentar" src="../imagens/imagem1.jpg" width="220" /></a> <!-- deve ter 250x156 px -->
+<!-- <a href="../imagens/imagem1.jpg"><img src="../imagens/imagem1_thumbnail.jpeg" width="180" height="112" /></a> -->
+<!-- </div> -->
+	<a href="../html/title1.html" target="_blank" ><h2>Queens of the Stone Age</h2></a> <!-- Titulo 1 -->
+<p>A banda&nbsp;<strong>Queens of the Stone Age</strong>&nbsp;se apresenta no Brasil em setembro de 2014. Os shows acontecem em S&atilde;o 
+Paulo e Porto Alegre. No dia 25 de setembro,&nbsp;a banda faz show no&nbsp;<strong>Espa&ccedil;o das Am&eacute;ricas</strong>, 
+em&nbsp;<strong>S&atilde;o Paulo</strong></a>, em um show que faz parte da plataforma Live Music Rocks, e dois dias depois, 27 de setembro, 
+o show chega a&nbsp;<strong>Porto Alegre</strong>, no 
+<a href="http://www.pepsionstage.com.br/index.php" 
+target="_self"><strong>Pepsi On Stage</strong></a>...</p> 
+
+
+
+</p> 
+</div> <!-- fim ID primeiro -->
+
+
+<div id="segundo">
+
+<!-- <div id="imagem2"> -->
+	<a href="../html/title2.html" target="_blank" ><img class="aumentar" src="../imagens/imagem2.jpg" width="220" /></a> <!-- deve ter 250x156 px -->
+
+<!-- </div> -->
+<p>
+	<a href="../html/title2.html" target="_blank" ><h2>Eddie Vedder no Brasil 2014</h2></a>
+O cantor Eddie Vedder vem para o Brasil em maio de 2014 para realizar tr&ecirc;s apresenta&ccedil;&otilde;es intimistas. 
+O cantor se apresenta nos dias 06, 07 e 08 de maio no Citibank Hall, em S&atilde;o Paulo, e nos dias 11 e 12 de maio no Citibank Hall, 
+no Rio de Janeiro. Os shows contam com abertura do artista de folk rock Glen Hansard... 
+</p> 
+</div> <!-- fim ID segundo -->
+
+<div id="terceiro">
+<p> 
+<!-- <div id="imagem3">  -->
+	<a href="../html/title3.html" target="_blank"><img class="aumentar" src="../imagens/imagem3.jpg" width="220" /></a> <!-- deve ter 250x156 px -->
+<!-- </div> -->
+	<a href="../html/title3.html" target="_blank"><h2>Black Label Society no Brasil 2014</h2></a>
+<p>A produtora Liberation MC &eacute; a responsável pela tour latino-americana de promo&ccedil;&atilde;o do novo &aacute;lbum do 
+BLACK LABEL SOCIETY, "Catacombs Of The Black Vatican". No in&iacute;cio de agosto, o BLS passar&aacute; por 3 capitais brasileiras...
+</p>
+
+</p> 
+</div> <!-- fim ID terceiro -->
+
+
+<div class="aumentar" id="ingressos">
+	<a href="../html/ingressos.html" target="_blank"><img id="buttoningr" src="../imagens/ingressos.svg" width="100%" onmouseover="alteraIngressosOver();" onmouseout="alteraIngressosOut();" onmousedown="alteraIngressosClick();" /></a>
+</div>
+
+<div id="propag01">
+ 	<a href="https://www.foofighters.com" target="_blank" ><img src="../imagens/foo.svg" width="90" alt="Foo Fighters"></a>
+</div> <!-- fim div propag01 -->
+
+<div id="propag02">
+	<a href="http://www.qotsa.com/" target="_blank" ><img src="../imagens/qotsa.svg" alt="Queens Of the Stone Age"></a>
+</div> <!-- fim div propag02 -->
+
+<div id="propag03">
+	<a href="http://pearljam.com/" target="_blank" ><img src="../imagens/Pearl-Jam.jpg" width="90" alt="Pearl Jam"></a>
+</div> <!-- fim div propag03 -->
+
+<div id="propag04">
+	<a href="http://www.acdc.com/us/home" target="_blank" ><img src="../imagens/acdc.svg" width="90" alt="AC/DC"></a>
+</div> <!-- fim div propag04 -->
+
+</div> <!-- fim div principal -->
+
+<div id="rodape">
+	<a href="mailto: vinikatunaric@gmail.com" ><img src="../imagens/Assinatura.svg"></a>
+	<p>Copywrong by <a href="mailto: vinikatunaric@gmail.com">vinikatunaric@gmail.com </a></p>
+</div> <!-- fim div rodape -->
+
+</div> <!-- fim div tudo -->
+</body>
+</html>

@@ -1,0 +1,205 @@
+<html>
+<head>
+<title>Imperd&iacute;vel</title>
+
+<link type="text/ccs" rel="stylesheet" href="../css/blog.css" media="screen"/>
+
+<script type="text/javascript" src="../javascript/blog.js">
+</script>
+
+</head>
+<body>
+
+<div id="tudo">
+
+<div id="cabecalho"> 
+	<a href="../html/index.html" ><img class="logo" src="../imagens/imperdivel.svg" height="90px" alt="logoptipo Vini"></a>
+	
+
+</div> <!-- fim div cabecalho -->
+
+<div id="intermediario">
+<div id="header">
+    <ul>
+      <li id="current"><a href="../html/index.html">In&iacute;cio</a></li>
+      <li><a href="../html/sobre.html" target="_blank">Sobre</a></li>
+    </ul>
+  </div>
+
+</div> <!-- fim ID intermediario -->
+
+<div id="principal_ingressos">
+
+<p>
+<table>
+<tr><th>Seus dados:</th>
+<td>
+<fieldset>
+<legend><h2>Dados Pessoais</h2></legend>
+<table>
+<tr>
+<td>Nome Completo:</td><td><input type="text" name="nome" id="nome" onblur="validaNome(this.value);" onfocus="limpa(this);" value="Digite aqui seu nome" /></td>
+<td> <img id="nomeImg" src=" " /> </td>
+</tr>
+<tr> 
+<td>Telefone:</td><td><input type="text" name="telefone" id="telefone" onkeyup="completaFone(this.value);" onblur="validaFone(this.value)" onfocus="limpa(this)" value="Digite aqui seu telefone" /></td>
+<td> <img id="foneImg" src=" " /></td>
+</tr>
+<tr> 
+<td>E-mail:</td><td><input type="text" size="80" name="e-mail" onblur="validaEmail();" onfocus="limpa(this)" value="Digite aqui seu e-mail" /></td>
+<td> <img id="emailImg" src=" " /> </td>
+</tr>
+<tr> 
+<td>CPF:</td><td><input type="text" name="cpf" onblur="validaCPF(this.value);" onfocus="limpa(this)" value="Digite aqui seu CPF" /></td>
+<td> <img id="cpfImg" src=" " /> </td>
+</tr>
+</table>
+</fieldset>
+</td>
+</tr>
+<tr><th>Show</th>
+<td>
+<fieldset>
+<legend><h2>Escolha o show</h2></legend>
+Nome da Banda:
+ <select id="nomeBanda" name="nomeBanda" onclick="ingresso(this.value);" />
+	<option> </option>
+	<option value=100>Queens of the Stone Age</option>
+	<option value=120>Eddie Vedder</option>
+	<option value=150>Black Lable Society</option>
+</select> <br>
+<br>Pista R$:<input type="text" name="vlrIngrPista" id="vlrIngrPista" readonly="readonly" />
+<br>Camarote R$:<input type="text" name="vlrIngrCam" id="vlrIngrCam" readonly="readonly" />
+<br>Mesanino R$:<input type="text" name="vlrIngrMesa" id="vlrIngrMesa" readonly="readonly" />
+</fieldset>
+</td>
+</tr>
+
+
+<tr><th>Dados Financeiros:</th>
+<td>
+<fieldset>
+<legend><h2>Cart&atilde;o de Cr&eacute;dito</h2></legend>
+<table>
+<tr>
+<td>N&uacute;mero:<input type="text" name="cartaoCred" id="cartaoCred" onkeyup="completaCred(this.value);" /></td>
+<td> <img id="credImg" src=" " /> </td>
+</tr>
+<td>C&oacute;digo de Seguran&ccedil;a <input type="text" name="codCartao" size="3" maxlength="3" id="codCartao" onkeyup="completaCod(this.value);" /></td>
+<td> <img id="codsegImg" src=" " /> </td> 
+</tr>
+<td>Validade do Cartao
+<select name="mesV" id="mesV" > 
+	<option>Mes</option>
+	<option id="Janeiro" value=0>Janeiro</option>
+	<option id="Fevereiro" value=1>Fevereiro</option>
+	<option id="Marco" value=2>Mar&ccedil;o</option>
+	<option id="Abril" value=3>Abril</option>
+	<option id="Maio" value=4>Maio</option>
+	<option id="Junho" value=5>Junho</option>
+	<option id="Julho" value=6>Julho</option>
+	<option id="Agosto" value=7>Agosto</option>
+	<option id="Setembro" value=8>Setembro</option>
+	<option id="Outubro" value=9>Outubro</option>
+	<option id="Novembro" value=10>Novembro</option>
+	<option id="Dezembro" value=11>Dezembro</option>
+</select> 
+<select name="anoV" id="anoV" onblur="validaData(this.value);">
+	<option>Ano</option>
+	<option id="2013" value=2013>2013</option>
+	<option id="2014" value=2014>2014</option>
+	<option id="2015" value=2015>2015</option>
+	<option id="2016" value=2016>2016</option>
+	<option id="2017" value=2017>2017</option>
+	<option id="2018" value=2018>2018</option>
+	<option id="2019" value=2019>2019</option>
+	<option id="2020" value=2020>2020</option>
+</select>
+</td>
+</tr>
+</table>
+</fieldset>
+</td>
+</tr>
+<tr><th>Ingressos:</th>
+<td>
+<fieldset>
+<legend><h2>Locais</h2></legend>
+<table>
+<tr>
+<td>Pista:</td><td><input type="text" id="pista" name="pista" value="0" readonly="readonly"/></td>
+<td><span onclick="incPista();"> <img id="somaPista" src="../imagens/SOMA-NORMAL.svg" onmouseover="alteraSomaPistaOver();" onmouseout="alteraSomaPistaOut();" onmousedown="alteraSomaPistaClick();" onmouseup="alteraSomaPistaOut();" />  </span></td> <td><span onclick="decPista();"> <img id="subPista" src="../imagens/SUB-NORMAL.svg" onmouseover="alteraSubPistaOver();" onmouseout="alteraSubPistaOut();" onmousedown="alteraSubPistaClick();"onmouseup="alteraSubPistaOut();" /> </span></td>
+<!-- <td><span onclick="incPista();">+</span></td> <td><span onclick="decPista();">-</span></td> -->
+</tr>
+<tr> 
+<td>Camarote:</td><td><input type="text" id="camarote" name="camarote" value="0" readonly="readonly"/></td>
+<td><span onclick="incCam();"> <img id="somaCam" src="../imagens/SOMA-NORMAL.svg" onmouseover="alteraSomaCamOver();" onmouseout="alteraSomaCamOut();" onmousedown="alteraSomaCamClick();"onmouseup="alteraSomaCamOut();" /> </span></td> <td><span o onclick="decCam();"> <img id="subCam" src="../imagens/SUB-NORMAL.svg" onmouseover="alteraSubCamOver();" onmouseout="alteraSubCamOut();" onmousedown="alteraSubCamClick();"onmouseup="alteraSubCamOut();" /> </span></td>
+</tr>
+<tr>
+<td>Mesanino:</td><td><input type="text" id="mesanino" name="mesanino" value="0" readonly="readonly"/></td>
+<td><span onclick="incMesa();"><img id="somaMesa" src="../imagens/SOMA-NORMAL.svg" onmouseover="alteraSomaMesaOver();" onmouseout="alteraSomaMesaOut();" onmousedown="alteraSomaMesaClick();"onmouseup="alteraSomaMesaOut();" /></span></td> <td><span onclick="decMesa();"> <img id="subMesa" src="../imagens/SUB-NORMAL.svg" onmouseover="alteraSubMesaOver();" onmouseout="alteraSubMesaOut();" onmousedown="alteraSubMesaClick();"onmouseup="alteraSubMesaOut();" /> </span></td>
+</tr>
+<tr>
+<td>TOTAL:</td><td><input type="text" id="totalIngr" name="quantIngr" value="0" readonly="readonly" /></td>
+</tr>
+</table>
+</fieldset>
+</td>
+</tr>
+<tr><th>Valor:</th>
+<td>
+<fieldset>
+<legend><h2>Total</h2></legend>
+<table>
+<tr>
+<td>Subtotal:</td><td><input type="text" id="subtotal" name="subtotal" readonly="readonly" /></td>
+</tr>
+<tr> 
+<td>Desconto:</td><td><input type="text" id="desconto" name="desconto"readonly="readonly" /></td>
+</tr>
+<tr> 
+<td>Total:</td><td><input type="text" id="total" name="total" readonly="readonly" /></td>
+</tr>
+
+</table>
+</fieldset>
+</td>
+</tr>
+
+</table> 
+<!-- <input type="file" name="Enviar" > -->
+<input type="button" value="Enviar" onclick="enviar_compra(this.form)" >
+
+
+</p>
+
+<div id="ingressos">
+	<a href="../html/ingressos.html" target="_blank"><img src="../imagens/ingressos.svg" width="150" alt="" onmouseover="../imagens/ingressos_onmouseover.svg" > 
+</div>
+
+<div id="propag01">
+ 	<a href="https://www.foofighters.com" target="_blank" ><img src="../imagens/foo.svg" width="90" alt="Foo Fighters"></a>
+</div> <!-- fim div propag01 -->
+
+<div id="propag02">
+	<a href="http://www.qotsa.com/" target="_blank" ><img src="../imagens/qotsa.svg" alt="Queens Of the Stone Age"></a>
+</div> <!-- fim div propag02 -->
+
+<div id="propag03">
+	<a href="http://pearljam.com/" target="_blank" ><img src="../imagens/Pearl-Jam.jpg" width="90" alt="Pearl Jam"></a>
+</div> <!-- fim div propag03 -->
+
+<div id="propag04">
+	<a href="http://www.acdc.com/us/home" target="_blank" ><img src="../imagens/acdc.svg" width="90" alt="AC/DC"></a>
+</div> <!-- fim div propag04 -->
+
+</div> <!-- fim div principal -->
+
+<div id="rodape">
+	<a href="mailto: vinikatunaric@gmail.com" ><img src="../imagens/Assinatura.svg"></a>
+	<p>Copywrong by <a href="mailto: vinikatunaric@gmail.com">vinikatunaric@gmail.com </a></p>
+</div> <!-- fim div rodape -->
+
+</div> <!-- fim div tudo -->
+</body>
+</html>
